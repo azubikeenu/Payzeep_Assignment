@@ -18,7 +18,7 @@ public class AppUtils {
     }
 
     private static String createAllMasked() {
-        return IntStream.rangeClosed(0, 2).boxed().map(x -> "X")
+        return IntStream.rangeClosed(0, 3).boxed().map(x -> "X")
                 .collect(Collectors.joining(""));
     }
 
