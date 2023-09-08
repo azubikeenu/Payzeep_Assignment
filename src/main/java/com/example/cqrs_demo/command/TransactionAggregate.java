@@ -49,7 +49,7 @@ public class TransactionAggregate {
         this.amount = transactionCreatedEvent.getAmount();
         this.date = transactionCreatedEvent.getDate();
         this.status = transactionCreatedEvent.getStatus();
-        this.transactionRef = transactionCreatedEvent.getMaskedPan();
+        this.transactionRef = transactionCreatedEvent.getTransactionRef();
         this.maskedPan = transactionCreatedEvent.getMaskedPan();
     }
 }
