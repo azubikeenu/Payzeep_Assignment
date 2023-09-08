@@ -20,6 +20,15 @@ To start up the application, follow these steps:
 
    This command will start the demo application.
 
+   
+
+4. To view the axon server and monitor the events data store 
+
+### Get http://localhost:8024/
+
+
+
+
 ## Exposed Endpoints
 
 The following endpoints are exposed by the application:
