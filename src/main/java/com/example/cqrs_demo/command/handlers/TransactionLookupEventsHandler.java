@@ -15,8 +15,8 @@ public class TransactionLookupEventsHandler {
     final TransactionLookupRepository transactionLookupRepository;
     @EventHandler
     public void on(TransactionCreatedEvent transactionCreatedEvent) {
-        TransactionLookup productLookupEntity = new TransactionLookup(transactionCreatedEvent.getId());
-        transactionLookupRepository.save(productLookupEntity);
+        TransactionLookup transactionLookup = new TransactionLookup(transactionCreatedEvent.getId());
+        transactionLookupRepository.save(transactionLookup);
     }
 
 }
